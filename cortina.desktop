@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Cortina
+Comment=Manage your desktop wallpapers
+Exec=/usr/bin/cortina
+Type=Application
+Icon=cortina
+StartupNotify=true
+Categories=Graphics
+X-Ubuntu-Gettext-Domain=cortina
