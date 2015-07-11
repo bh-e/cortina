@@ -1,0 +1,24 @@
+cortina (1.1.1-1) unstable; urgency=low
+
+  [ Wences Arana ]
+  * New upstream release
+  * debian/patches
+     + Removing typo
+     + Updating install patch
+     + Adding patch to format qstrings
+     + Adding patch to remove unauthorizde remote connection Closes:#693410
+  * debian/watch
+     + Updating url Closes:#674736
+  * debian/control
+     + Updating description field Closes:#680656
+     + Adding git control fields
+  [ Abhijith PA ]
+  * New maintainer (Closes: #790480) 
+  * Added keywords to cortina.desktop
+
+ -- Abhijith PA <abhijith@openmailbox.org>  Sat, 11 Jul 2015 12:30:37 +0530
+
+cortina (0.7.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #586378)
+ -- Wences Arana <aranax@debian.org.gt>  Mon, 27 Jun 2011 22:20:22 -0600
