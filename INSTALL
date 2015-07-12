@@ -1,0 +1,21 @@
+The simplest way to compile this package is:
+
+  To create a deb file using the program debuild:
+
+1.   if you dont have debuild installed, type "sudo apt-get install devscripts".
+
+2.  "cd" to the directory containing the package's source code and type "debuild".
+
+3.   Then type "cd .." and install the created deb file with "sudo dpkg -i cortina*.deb"
+
+
+
+
+Build and install without packaging it:
+
+
+1. To create the Makefile, type "qmake".
+
+2. After that it can be build: "make".
+
+3. Then type "make install" with root rights.
