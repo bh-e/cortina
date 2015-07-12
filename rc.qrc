@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>cortina.svg</file>
+        <file>cortina2.svg</file>
+        <file>list-add.png</file>
+        <file>list-remove.png</file>
+    </qresource>
+</RCC>
