@@ -1,0 +1,17 @@
+Source: cortina
+Section: gnome
+Priority: optional
+Maintainer: Abhijith PA <abhijith@openmailbox.org>
+Build-Depends: debhelper (>= 9), libqt4-dev (>= 4:4.7), libglib2.0-dev (>= 2.30)
+Standards-Version: 3.9.6
+Homepage: https://launchpad.net/cortina
+Vcs-Git: git://anonscm.debian.org/collab-maint/cortina.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/cortina.git
+
+Package: cortina
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libglib2.0-bin (>= 2.30), unity | gnome-shell (>= 3~)
+Description: Desktop wallpaper management application for GNOME
+ Cortina is a simple, lightweight, and fast-working wallpaper changer for
+ the GNOME desktop. It can cycle through wallpapers at a specified
+ interval, and works as a tray application with a configuration interface.
