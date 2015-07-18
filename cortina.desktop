@@ -8,5 +8,5 @@ Icon=cortina
 StartupNotify=true
 Categories=Graphics
 X-Ubuntu-Gettext-Domain=cortina
-_Keywords=gnome;wallpaper;
+Keywords=gnome;wallpaper;
 
