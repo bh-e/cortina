@@ -1,3 +1,7 @@
 Cortina - Wallpaper changer for gnome
 +------------------------------------+
+Desktop wallpaper management application for GNOME
+Cortina is a simple, lightweight, and fast-working wallpaper changer for
+the GNOME desktop. It can cycle through wallpapers at a specified
+interval, and works as a tray application with a configuration interface.
 
