@@ -53,7 +53,7 @@ void helper::Remove_Dir_thumb(int recursive, const QStringList & Paths) {
                     data.append(process.readAll());
 
                 // Output the data
-                qDebug(data.data());
+                qDebug( "%s", data.data() );
                 qDebug("Done!");
                 if(data.length() != 0){
 
@@ -81,7 +81,7 @@ void helper::Remove_Dir_thumb(int recursive, const QStringList & Paths) {
                     data.append(process.readAll());
 
                 // Output the data
-                qDebug(data.data());
+                qDebug( "%s", data.data() );
 
                 qDebug("Done!");
                 if(data.length() != 0){

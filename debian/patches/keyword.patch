@@ -1,0 +1,13 @@
+Description: Added keyword to cortina.desktop
+Author: Abhijith PA <abhijith@openmailbox.org>
+Forwarded: no
+Last-Update: 2015-07-12
+
+--- cortina-1.1.1.orig/cortina.desktop
++++ cortina-1.1.1/cortina.desktop
+@@ -7,4 +7,4 @@ Icon=cortina
+ StartupNotify=true
+ Categories=Graphics
+ X-Ubuntu-Gettext-Domain=cortina
+-
++Keywords=gnome;wallpaper;

@@ -42,6 +42,7 @@ po/zh_CN.ts
 icon.path = /usr/share/pixmaps
 icon.files += cortina.svg \
 cortina2.svg
+INSTALLS += icon
 target.path = /usr/bin
 INSTALLS += target
 desktop.path = /usr/share/applications

@@ -1,0 +1,16 @@
+Description: Removes unauthorized remote connection
+Forwarded: No
+Author: Wences Arana <aranax@debian.org.gt>
+Last-Update: 2014-03-22
+
+
+--- a/widget.cpp
++++ b/widget.cpp
+@@ -52,7 +52,6 @@
+ {
+     MessageHandler = qInstallMsgHandler(MessageOutput);
+     ui->setupUi(this);
+-    this->statisticer();
+     this->current = 0;
+     this->firstload = 0;
+     this->firstTime = false;

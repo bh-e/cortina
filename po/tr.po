@@ -1,0 +1,245 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: tr\n"
+"X-Source-Language: en\n"
+"X-Qt-Contexts: true\n"
+
+#: ../widget.ui:89
+msgctxt "Widget|Display"
+msgid "Display"
+msgstr "Görüntü"
+
+#: ../widget.ui:171
+msgctxt "Widget|"
+msgid "Count:"
+msgstr "Sayaç:"
+
+#: ../widget.ui:226
+msgctxt "Widget|Preferences"
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: ../widget.ui:246
+msgctxt "Widget|"
+msgid "Startup options"
+msgstr "Başlangıç seçenekleri"
+
+#: ../widget.ui:265
+msgctxt "Widget|"
+msgid "Autostart Cortina"
+msgstr "Cortina'yı otomatik başlat"
+
+#: ../widget.ui:278
+msgctxt "Widget|"
+msgid "Switch wallpaper on start"
+msgstr "Duvar kağıdını başlangıçta değiştir"
+
+#: ../widget.ui:299
+msgctxt "Widget|"
+msgid "Timing selection (hours:minutes:seconds)"
+msgstr ""
+
+#: ../widget.ui:323
+msgctxt "Widget|"
+msgid "Wallpaper search directories"
+msgstr "Duvar kağıdı arama dizinleri"
+
+#: ../widget.ui:342
+msgctxt "Widget|"
+msgid "Picture option:"
+msgstr "Resim seçeneği:"
+
+#: ../widget.ui:377
+msgctxt "Widget|zoom"
+msgid "zoom"
+msgstr "yaklaş"
+
+#: ../widget.ui:382
+msgctxt "Widget|"
+msgid "wallpaper"
+msgstr "duvar kağıdı"
+
+#: ../widget.ui:387
+msgctxt "Widget|centered"
+msgid "centered"
+msgstr "ortalanmış"
+
+#: ../widget.ui:392
+msgctxt "Widget|scaled"
+msgid "scaled"
+msgstr "ölçeklenmiş"
+
+#: ../widget.ui:397
+msgctxt "Widget|stretched"
+msgid "stretched"
+msgstr "uzatılmış"
+
+#: ../widget.ui:402
+msgctxt "Widget|spanned"
+msgid "spanned"
+msgstr "yayılmış"
+
+#: ../widget.ui:496
+msgctxt "Widget|"
+msgid "recursiv"
+msgstr "özyinelemeli"
+
+#: ../widget.ui:509
+msgctxt "Widget|"
+msgid "path"
+msgstr "yol"
+
+#: ../widget.ui:564
+msgctxt "Widget|about"
+msgid "about"
+msgstr "hakkında"
+
+#: ../widget.ui:613
+msgctxt "Widget|close"
+msgid "close"
+msgstr "kapat"
+
+#: ../widget.cpp:76
+msgctxt "Widget|"
+msgid "Open GUI"
+msgstr "Grafik Arayüzünü Aç"
+
+#: ../widget.cpp:77
+msgctxt "Widget|"
+msgid "remove from disk"
+msgstr ""
+
+#: ../widget.cpp:80
+msgctxt "Widget|"
+msgid "Current wallpaper"
+msgstr "Şu anki duvar kağıdı"
+
+#: ../widget.cpp:88
+msgctxt "Widget|"
+msgid "Exit"
+msgstr "Çıkış"
+
+#: ../widget.cpp:136
+#, qt-format
+msgctxt "Widget|"
+msgid ""
+"Filename: %1\n"
+"Path: %2\n"
+"Resolution: %3x%4"
+msgstr ""
+"Dosya adı: %1\n"
+"Yer: %2\n"
+"Çözünürlük: %3x%4"
+
+#: ../widget.cpp:224
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 would be double monitored, please remove that entry before!"
+msgstr ""
+
+#: ../widget.cpp:227 ../widget.cpp:685 ../widget.cpp:690
+msgctxt "Widget|"
+msgid "dublicate detected"
+msgstr "kopya bulundu"
+
+#: ../widget.cpp:338 ../widget.cpp:633
+msgctxt "Widget|"
+msgid "Do you really want to delete this image from disk?"
+msgstr "Bu görüntüyü diskten silmek istediğinize emin misiniz?"
+
+#: ../widget.cpp:360 ../widget.cpp:619
+msgctxt "Widget|"
+msgid "Successful removed"
+msgstr "Başarıyla silindi"
+
+#: ../widget.cpp:360 ../widget.cpp:370 ../widget.cpp:619
+#, qt-format
+msgctxt "Widget|"
+msgid ""
+"Filename: %1\n"
+"Path: %2"
+msgstr ""
+"Dosyaadı: %1\n"
+"Yolu: %2"
+
+#: ../widget.cpp:370
+msgctxt "Widget|"
+msgid "Not removed"
+msgstr ""
+
+#: ../widget.cpp:509
+msgctxt "Widget|"
+msgid "version"
+msgstr "sürüm"
+
+#: ../widget.cpp:530
+msgctxt "Widget|"
+msgid "about"
+msgstr "hakkında"
+
+#: ../widget.cpp:639
+msgctxt "Widget|"
+msgid "delete"
+msgstr "sil"
+
+#: ../widget.cpp:660
+msgctxt "Widget|"
+msgid "add"
+msgstr "ekle"
+
+#: ../widget.cpp:661
+msgctxt "Widget|"
+msgid "File typ"
+msgstr "Dosya Şekli"
+
+#: ../widget.cpp:662
+msgctxt "Widget|"
+msgid "Directory name"
+msgstr "Dizin ismi"
+
+#: ../widget.cpp:663
+msgctxt "Widget|"
+msgid "close"
+msgstr "kapat"
+
+#: ../widget.cpp:664
+msgctxt "Widget|"
+msgid "Choose directory..."
+msgstr "Dizin seçiniz..."
+
+#: ../widget.cpp:683
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 is already monitored through %2!"
+msgstr "%1 %2 tarafından zaten gözlemleniyor!"
+
+#: ../widget.cpp:689
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 is already monitored!"
+msgstr ""
+
+#: ../widget.cpp:890
+msgctxt "Widget|"
+msgid "Update available!"
+msgstr ""
+
+#: ../widget.cpp:890
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 is available!"
+msgstr ""
+
+#: ../widget.cpp:900
+msgctxt "Widget|"
+msgid "Download from Launchpad"
+msgstr ""
+
+#: ../widget.cpp:907
+msgctxt "Widget|"
+msgid "Add my PPA"
+msgstr ""

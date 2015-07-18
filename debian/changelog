@@ -14,9 +14,10 @@ cortina (1.1.1-1) unstable; urgency=low
      + Adding git control fields
   [ Abhijith PA ]
   * New maintainer (Closes: #790480) 
-  * Added keywords to cortina.desktop
+  * debian/patches
+     + added keyword to cortina.desktop 
 
- -- Abhijith PA <abhijith@openmailbox.org>  Sat, 11 Jul 2015 12:30:37 +0530
+ -- Abhijith PA <abhijith@openmailbox.org>  Mon, 13 Jul 2015 21:41:27 +0530
 
 cortina (0.7.3-1) unstable; urgency=low
 

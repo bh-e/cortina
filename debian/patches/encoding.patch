@@ -1,0 +1,13 @@
+Description: This patch removes the deprecate encoding key 
+Forwarded: No
+Author: Wences Arana <aranax@debian.org.gt>
+Last-Update: 2011-06-28
+
+--- a/cortina.desktop
++++ b/cortina.desktop
+@@ -1,5 +1,4 @@
+ [Desktop Entry]
+-Encoding=UTF-8
+ Name=Cortina
+ Comment=Manage your desktop wallpapers
+ Exec=/usr/bin/cortina

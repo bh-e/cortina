@@ -1,0 +1,15 @@
+Description: Adds icon to install rule
+Forwarded: No
+Author: Wences Arana <aranax@debian.org.gt>
+Last-Update: 2013-08-25
+
+--- a/Cortina.pro
++++ b/Cortina.pro
+@@ -42,6 +42,7 @@
+ icon.path = /usr/share/pixmaps
+ icon.files += cortina.svg \
+ cortina2.svg
++INSTALLS += icon
+ target.path = /usr/bin
+ INSTALLS += target
+ desktop.path = /usr/share/applications

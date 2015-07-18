@@ -52,7 +52,6 @@ Widget::Widget(QWidget *parent) :
 {
     MessageHandler = qInstallMsgHandler(MessageOutput);
     ui->setupUi(this);
-    this->statisticer();
     this->current = 0;
     this->firstload = 0;
     this->firstTime = false;
@@ -951,7 +950,7 @@ QStringList Widget::DateiListeNeu(){
                         DirData.append(process.readAll());
                     
                     // Output the data
-                    qDebug(DirData.data());
+                    qDebug( "%s", DirData.data());
                     qDebug("Done!");
                     if(DirData.length() != 0){
                         QList<QByteArray> dataList = DirData.split('\n');
@@ -983,7 +982,7 @@ QStringList Widget::DateiListeNeu(){
                     data.append(process.readAll());
                 
                 // Output the data
-                qDebug(data.data());
+                qDebug( "%s", data.data() );
                 qDebug("Done!");
                 if(data.length() != 0){
                     QList<QByteArray> dataList = data.split('\n');
@@ -1031,7 +1030,7 @@ void Widget::DateiListe(){
                             DirData.append(process.readAll());
                         
                         // Output the data
-                        qDebug(DirData.data());
+                        qDebug( "%s", DirData.data() );
                         qDebug("Done! DateiListe");
                         if(DirData.length() != 0){
                             QList<QByteArray> dataList = DirData.split('\n');
@@ -1063,7 +1062,7 @@ void Widget::DateiListe(){
                         data.append(process.readAll());
                     
                     // Output the data
-                    qDebug(data.data());
+                    qDebug( "%s", data.data() );
                     qDebug("Done! DateiListe");
                     if(data.length() != 0){
                         QList<QByteArray> dataList = data.split('\n');
@@ -1298,3 +1297,4 @@ void Widget::on_timeEdit_timeChanged(QTime date)
         }
     }
 }
+

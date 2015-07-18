@@ -1,0 +1,232 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.8.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-01 11:40+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-03-01 10:52+0000\n"
+
+#: ../widget.ui:89
+msgctxt "Widget|Display"
+msgid "Display"
+msgstr ""
+
+#: ../widget.ui:159
+msgctxt "Widget|"
+msgid "Count:"
+msgstr ""
+
+#: ../widget.ui:211
+msgctxt "Widget|Preferences"
+msgid "Preferences"
+msgstr ""
+
+#: ../widget.ui:231
+msgctxt "Widget|"
+msgid "Startup options"
+msgstr ""
+
+#: ../widget.ui:250
+msgctxt "Widget|"
+msgid "Autostart Cortina"
+msgstr ""
+
+#: ../widget.ui:263
+msgctxt "Widget|"
+msgid "Switch wallpaper on start"
+msgstr ""
+
+#: ../widget.ui:284
+msgctxt "Widget|"
+msgid "Timing selection (hours:minutes:seconds)"
+msgstr ""
+
+#: ../widget.ui:308
+msgctxt "Widget|"
+msgid "Wallpaper search directories"
+msgstr ""
+
+#: ../widget.ui:327
+msgctxt "Widget|"
+msgid "Picture option:"
+msgstr ""
+
+#: ../widget.ui:362
+msgctxt "Widget|zoom"
+msgid "zoom"
+msgstr ""
+
+#: ../widget.ui:367
+msgctxt "Widget|"
+msgid "wallpaper"
+msgstr ""
+
+#: ../widget.ui:372
+msgctxt "Widget|centered"
+msgid "centered"
+msgstr ""
+
+#: ../widget.ui:377
+msgctxt "Widget|scaled"
+msgid "scaled"
+msgstr ""
+
+#: ../widget.ui:382
+msgctxt "Widget|stretched"
+msgid "stretched"
+msgstr ""
+
+#: ../widget.ui:387
+msgctxt "Widget|spanned"
+msgid "spanned"
+msgstr ""
+
+#: ../widget.ui:481
+msgctxt "Widget|"
+msgid "recursiv"
+msgstr ""
+
+#: ../widget.ui:494
+msgctxt "Widget|"
+msgid "path"
+msgstr ""
+
+#: ../widget.ui:549
+msgctxt "Widget|about"
+msgid "about"
+msgstr ""
+
+#: ../widget.ui:598
+msgctxt "Widget|close"
+msgid "close"
+msgstr ""
+
+#: ../widget.cpp:64
+msgctxt "Widget|"
+msgid "Open GUI"
+msgstr ""
+
+#: ../widget.cpp:65
+msgctxt "Widget|"
+msgid "remove from disk"
+msgstr ""
+
+#: ../widget.cpp:68
+msgctxt "Widget|"
+msgid "Current wallpaper"
+msgstr ""
+
+#: ../widget.cpp:76
+msgctxt "Widget|"
+msgid "Exit"
+msgstr ""
+
+#: ../widget.cpp:123
+#, qt-format
+msgctxt "Widget|"
+msgid ""
+"Filename: %1\n"
+"Path: %2\n"
+"Resolution: %3x%4"
+msgstr ""
+
+#: ../widget.cpp:212
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 would be double monitored, please remove that entry before!"
+msgstr ""
+
+#: ../widget.cpp:215 ../widget.cpp:727 ../widget.cpp:732
+msgctxt "Widget|"
+msgid "dublicate detected"
+msgstr ""
+
+#: ../widget.cpp:326 ../widget.cpp:675
+msgctxt "Widget|"
+msgid "Do you really want to delete this image from disk?"
+msgstr ""
+
+#: ../widget.cpp:348 ../widget.cpp:661
+msgctxt "Widget|"
+msgid "Successful removed"
+msgstr ""
+
+#: ../widget.cpp:348 ../widget.cpp:358 ../widget.cpp:661
+#, qt-format
+msgctxt "Widget|"
+msgid ""
+"Filename: %1\n"
+"Path: %2"
+msgstr ""
+
+#: ../widget.cpp:358
+msgctxt "Widget|"
+msgid "Not removed"
+msgstr ""
+
+#: ../widget.cpp:517
+msgctxt "Widget|"
+msgid "version"
+msgstr ""
+
+#: ../widget.cpp:538
+msgctxt "Widget|"
+msgid "about"
+msgstr ""
+
+#: ../widget.cpp:681
+msgctxt "Widget|"
+msgid "delete"
+msgstr ""
+
+#: ../widget.cpp:702
+msgctxt "Widget|"
+msgid "add"
+msgstr ""
+
+#: ../widget.cpp:703
+msgctxt "Widget|"
+msgid "File typ"
+msgstr ""
+
+#: ../widget.cpp:704
+msgctxt "Widget|"
+msgid "Directory name"
+msgstr ""
+
+#: ../widget.cpp:705
+msgctxt "Widget|"
+msgid "close"
+msgstr ""
+
+#: ../widget.cpp:706
+msgctxt "Widget|"
+msgid "Choose directory..."
+msgstr ""
+
+#: ../widget.cpp:725
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 is already monitored through %2!"
+msgstr ""
+
+#: ../widget.cpp:731
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 is already monitored!"
+msgstr ""
+
+#: ../widget.cpp:917
+#, qt-format
+msgctxt "Widget|"
+msgid ""
+"%1 is avaible!\n"
+"Click on the about button to see where you can get it!"
+msgstr ""
+
+#: ../widget.cpp:918
+msgctxt "Widget|"
+msgid "Update avaible!"
+msgstr ""

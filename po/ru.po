@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+
+#: ../widget.ui:89
+msgctxt "Widget|Display"
+msgid "Display"
+msgstr "Дисплей"
+
+#: ../widget.ui:171
+msgctxt "Widget|"
+msgid "Count:"
+msgstr "Количество:"
+
+#: ../widget.ui:226
+msgctxt "Widget|Preferences"
+msgid "Preferences"
+msgstr "Параметры"
+
+#: ../widget.ui:246
+msgctxt "Widget|"
+msgid "Startup options"
+msgstr "Параметры запуска"
+
+#: ../widget.ui:265
+msgctxt "Widget|"
+msgid "Autostart Cortina"
+msgstr "Запускать Cortina автоматически"
+
+#: ../widget.ui:278
+msgctxt "Widget|"
+msgid "Switch wallpaper on start"
+msgstr "Меняет обои при запуске"
+
+#: ../widget.ui:299
+msgctxt "Widget|"
+msgid "Timing selection (hours:minutes:seconds)"
+msgstr "Выбор по времени (ЧЧ:ММ:СС)"
+
+#: ../widget.ui:323
+msgctxt "Widget|"
+msgid "Wallpaper search directories"
+msgstr "Каталог с обоями"
+
+#: ../widget.ui:342
+msgctxt "Widget|"
+msgid "Picture option:"
+msgstr "Параметры картинки:"
+
+#: ../widget.ui:377
+msgctxt "Widget|zoom"
+msgid "zoom"
+msgstr "масштаб"
+
+#: ../widget.ui:382
+msgctxt "Widget|"
+msgid "wallpaper"
+msgstr "обои"
+
+#: ../widget.ui:387
+msgctxt "Widget|centered"
+msgid "centered"
+msgstr "по центру"
+
+#: ../widget.ui:392
+msgctxt "Widget|scaled"
+msgid "scaled"
+msgstr "в масштабе"
+
+#: ../widget.ui:397
+msgctxt "Widget|stretched"
+msgid "stretched"
+msgstr "растянуто"
+
+#: ../widget.ui:402
+msgctxt "Widget|spanned"
+msgid "spanned"
+msgstr "растянуто"
+
+#: ../widget.ui:496
+msgctxt "Widget|"
+msgid "recursiv"
+msgstr "рекурсив"
+
+#: ../widget.ui:509
+msgctxt "Widget|"
+msgid "path"
+msgstr "путь"
+
+#: ../widget.ui:564
+msgctxt "Widget|about"
+msgid "about"
+msgstr "Сведения о программе"
+
+#: ../widget.ui:613
+msgctxt "Widget|close"
+msgid "close"
+msgstr "закрыть"
+
+#: ../widget.cpp:76
+msgctxt "Widget|"
+msgid "Open GUI"
+msgstr "Open GUI"
+
+#: ../widget.cpp:77
+msgctxt "Widget|"
+msgid "remove from disk"
+msgstr "Удалить с диска"
+
+#: ../widget.cpp:80
+msgctxt "Widget|"
+msgid "Current wallpaper"
+msgstr "Задействованная фоновая картинка"
+
+#: ../widget.cpp:88
+msgctxt "Widget|"
+msgid "Exit"
+msgstr "Выход"
+
+#: ../widget.cpp:136
+#, qt-format
+msgctxt "Widget|"
+msgid ""
+"Filename: %1\n"
+"Path: %2\n"
+"Resolution: %3x%4"
+msgstr ""
+"Имя файла: %1\n"
+"Размещение: %2\n"
+"Разрешение: %3x%4"
+
+#: ../widget.cpp:224
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 would be double monitored, please remove that entry before!"
+msgstr "%1 будет мониториться с двух сторон, удалите эту запись!"
+
+#: ../widget.cpp:227 ../widget.cpp:685 ../widget.cpp:690
+msgctxt "Widget|"
+msgid "dublicate detected"
+msgstr "обнаружена копия"
+
+#: ../widget.cpp:338 ../widget.cpp:633
+msgctxt "Widget|"
+msgid "Do you really want to delete this image from disk?"
+msgstr "Вы действительно хотите удалить это изображение с диска?"
+
+#: ../widget.cpp:360 ../widget.cpp:619
+msgctxt "Widget|"
+msgid "Successful removed"
+msgstr "Успешно удалено"
+
+#: ../widget.cpp:360 ../widget.cpp:370 ../widget.cpp:619
+#, qt-format
+msgctxt "Widget|"
+msgid ""
+"Filename: %1\n"
+"Path: %2"
+msgstr ""
+"Имя файла: %1\n"
+"Путь: %2"
+
+#: ../widget.cpp:370
+msgctxt "Widget|"
+msgid "Not removed"
+msgstr "Не удалено"
+
+#: ../widget.cpp:509
+msgctxt "Widget|"
+msgid "version"
+msgstr "версия"
+
+#: ../widget.cpp:530
+msgctxt "Widget|"
+msgid "about"
+msgstr "сведения о программе"
+
+#: ../widget.cpp:639
+msgctxt "Widget|"
+msgid "delete"
+msgstr "удалить"
+
+#: ../widget.cpp:660
+msgctxt "Widget|"
+msgid "add"
+msgstr "добавить"
+
+#: ../widget.cpp:661
+msgctxt "Widget|"
+msgid "File typ"
+msgstr "Тип файла"
+
+#: ../widget.cpp:662
+msgctxt "Widget|"
+msgid "Directory name"
+msgstr "Имя каталога"
+
+#: ../widget.cpp:663
+msgctxt "Widget|"
+msgid "close"
+msgstr "закрыть"
+
+#: ../widget.cpp:664
+msgctxt "Widget|"
+msgid "Choose directory..."
+msgstr "Выберите каталог..."
+
+#: ../widget.cpp:683
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 is already monitored through %2!"
+msgstr "%1 уже отслеживается через %2!"
+
+#: ../widget.cpp:689
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 is already monitored!"
+msgstr "%1 уже мониторится!"
+
+#: ../widget.cpp:890
+msgctxt "Widget|"
+msgid "Update available!"
+msgstr ""
+
+#: ../widget.cpp:890
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 is available!"
+msgstr ""
+
+#: ../widget.cpp:900
+msgctxt "Widget|"
+msgid "Download from Launchpad"
+msgstr ""
+
+#: ../widget.cpp:907
+msgctxt "Widget|"
+msgid "Add my PPA"
+msgstr ""

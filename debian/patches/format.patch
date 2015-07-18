@@ -1,0 +1,63 @@
+Description: Formatting strings 
+Forwarded: No
+Author: Wences Arana <aranax@debian.org.gt>
+Last-Update: 2013-08-25
+
+--- a/widget.cpp
++++ b/widget.cpp
+@@ -951,7 +951,7 @@
+                         DirData.append(process.readAll());
+                     
+                     // Output the data
+-                    qDebug(DirData.data());
++                    qDebug( "%s", DirData.data());
+                     qDebug("Done!");
+                     if(DirData.length() != 0){
+                         QList<QByteArray> dataList = DirData.split('\n');
+@@ -983,7 +983,7 @@
+                     data.append(process.readAll());
+                 
+                 // Output the data
+-                qDebug(data.data());
++                qDebug( "%s", data.data() );
+                 qDebug("Done!");
+                 if(data.length() != 0){
+                     QList<QByteArray> dataList = data.split('\n');
+@@ -1031,7 +1031,7 @@
+                             DirData.append(process.readAll());
+                         
+                         // Output the data
+-                        qDebug(DirData.data());
++                        qDebug( "%s", DirData.data() );
+                         qDebug("Done! DateiListe");
+                         if(DirData.length() != 0){
+                             QList<QByteArray> dataList = DirData.split('\n');
+@@ -1063,7 +1063,7 @@
+                         data.append(process.readAll());
+                     
+                     // Output the data
+-                    qDebug(data.data());
++                    qDebug( "%s", data.data() );
+                     qDebug("Done! DateiListe");
+                     if(data.length() != 0){
+                         QList<QByteArray> dataList = data.split('\n');
+--- a/helper.cpp
++++ b/helper.cpp
+@@ -53,7 +53,7 @@
+                     data.append(process.readAll());
+ 
+                 // Output the data
+-                qDebug(data.data());
++                qDebug( "%s", data.data() );
+                 qDebug("Done!");
+                 if(data.length() != 0){
+ 
+@@ -81,7 +81,7 @@
+                     data.append(process.readAll());
+ 
+                 // Output the data
+-                qDebug(data.data());
++                qDebug( "%s", data.data() );
+ 
+                 qDebug("Done!");
+                 if(data.length() != 0){

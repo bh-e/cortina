@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+
+#: ../widget.ui:89
+msgctxt "Widget|Display"
+msgid "Display"
+msgstr "Exibição"
+
+#: ../widget.ui:171
+msgctxt "Widget|"
+msgid "Count:"
+msgstr "Quantidade:"
+
+#: ../widget.ui:226
+msgctxt "Widget|Preferences"
+msgid "Preferences"
+msgstr "Preferências"
+
+#: ../widget.ui:246
+msgctxt "Widget|"
+msgid "Startup options"
+msgstr "Opções de inicialização"
+
+#: ../widget.ui:265
+msgctxt "Widget|"
+msgid "Autostart Cortina"
+msgstr "Iniciar Cortina automaticamente"
+
+#: ../widget.ui:278
+msgctxt "Widget|"
+msgid "Switch wallpaper on start"
+msgstr "Trocar o papel de parede ao iniciar"
+
+#: ../widget.ui:299
+msgctxt "Widget|"
+msgid "Timing selection (hours:minutes:seconds)"
+msgstr "Seleção de tempo (horas:minutos:segundos)"
+
+#: ../widget.ui:323
+msgctxt "Widget|"
+msgid "Wallpaper search directories"
+msgstr "Buscar diretórios de papel de parede"
+
+#: ../widget.ui:342
+msgctxt "Widget|"
+msgid "Picture option:"
+msgstr "Opção de imagem:"
+
+#: ../widget.ui:377
+msgctxt "Widget|zoom"
+msgid "zoom"
+msgstr "zoom"
+
+#: ../widget.ui:382
+msgctxt "Widget|"
+msgid "wallpaper"
+msgstr "papel de parede"
+
+#: ../widget.ui:387
+msgctxt "Widget|centered"
+msgid "centered"
+msgstr "centralizado"
+
+#: ../widget.ui:392
+msgctxt "Widget|scaled"
+msgid "scaled"
+msgstr "dimensionado"
+
+#: ../widget.ui:397
+msgctxt "Widget|stretched"
+msgid "stretched"
+msgstr "esticado"
+
+#: ../widget.ui:402
+msgctxt "Widget|spanned"
+msgid "spanned"
+msgstr "estendido"
+
+#: ../widget.ui:496
+msgctxt "Widget|"
+msgid "recursiv"
+msgstr "recursivo"
+
+#: ../widget.ui:509
+msgctxt "Widget|"
+msgid "path"
+msgstr "caminho"
+
+#: ../widget.ui:564
+msgctxt "Widget|about"
+msgid "about"
+msgstr "sobre"
+
+#: ../widget.ui:613
+msgctxt "Widget|close"
+msgid "close"
+msgstr "fechar"
+
+#: ../widget.cpp:76
+msgctxt "Widget|"
+msgid "Open GUI"
+msgstr "Abrir interface gráfica"
+
+#: ../widget.cpp:77
+msgctxt "Widget|"
+msgid "remove from disk"
+msgstr "remover do disco"
+
+#: ../widget.cpp:80
+msgctxt "Widget|"
+msgid "Current wallpaper"
+msgstr "Papel de parede atual"
+
+#: ../widget.cpp:88
+msgctxt "Widget|"
+msgid "Exit"
+msgstr "Sair"
+
+#: ../widget.cpp:136
+#, qt-format
+msgctxt "Widget|"
+msgid ""
+"Filename: %1\n"
+"Path: %2\n"
+"Resolution: %3x%4"
+msgstr ""
+"Nome do arquivo: %1\n"
+"Caminho: %2\n"
+"Resolução: %3x%4"
+
+#: ../widget.cpp:224
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 would be double monitored, please remove that entry before!"
+msgstr "%1 seria o dobro monitorado, por favor remover essa entrada antes!"
+
+#: ../widget.cpp:227 ../widget.cpp:685 ../widget.cpp:690
+msgctxt "Widget|"
+msgid "dublicate detected"
+msgstr "duplicado detectado"
+
+#: ../widget.cpp:338 ../widget.cpp:633
+msgctxt "Widget|"
+msgid "Do you really want to delete this image from disk?"
+msgstr "Você quer mesmo apagar esta imagem do disco?"
+
+#: ../widget.cpp:360 ../widget.cpp:619
+msgctxt "Widget|"
+msgid "Successful removed"
+msgstr "Removido com sucesso"
+
+#: ../widget.cpp:360 ../widget.cpp:370 ../widget.cpp:619
+#, qt-format
+msgctxt "Widget|"
+msgid ""
+"Filename: %1\n"
+"Path: %2"
+msgstr ""
+"Nome do arquivo: %1\n"
+"Caminho: %2"
+
+#: ../widget.cpp:370
+msgctxt "Widget|"
+msgid "Not removed"
+msgstr "Não removido"
+
+#: ../widget.cpp:509
+msgctxt "Widget|"
+msgid "version"
+msgstr "versão"
+
+#: ../widget.cpp:530
+msgctxt "Widget|"
+msgid "about"
+msgstr "sobre"
+
+#: ../widget.cpp:639
+msgctxt "Widget|"
+msgid "delete"
+msgstr "remover"
+
+#: ../widget.cpp:660
+msgctxt "Widget|"
+msgid "add"
+msgstr "adicionar"
+
+#: ../widget.cpp:661
+msgctxt "Widget|"
+msgid "File typ"
+msgstr "Tipo de arquivo"
+
+#: ../widget.cpp:662
+msgctxt "Widget|"
+msgid "Directory name"
+msgstr "Nome do diretório"
+
+#: ../widget.cpp:663
+msgctxt "Widget|"
+msgid "close"
+msgstr "fechar"
+
+#: ../widget.cpp:664
+msgctxt "Widget|"
+msgid "Choose directory..."
+msgstr "Escolher o diretório"
+
+#: ../widget.cpp:683
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 is already monitored through %2!"
+msgstr "%1 já é monitorada através do %2!"
+
+#: ../widget.cpp:689
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 is already monitored!"
+msgstr "%1 já está sendo monitorado!"
+
+#: ../widget.cpp:890
+msgctxt "Widget|"
+msgid "Update available!"
+msgstr ""
+
+#: ../widget.cpp:890
+#, qt-format
+msgctxt "Widget|"
+msgid "%1 is available!"
+msgstr ""
+
+#: ../widget.cpp:900
+msgctxt "Widget|"
+msgid "Download from Launchpad"
+msgstr ""
+
+#: ../widget.cpp:907
+msgctxt "Widget|"
+msgid "Add my PPA"
+msgstr ""
